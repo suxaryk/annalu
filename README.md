@@ -1,2 +1,1 @@
-#Annalu
-Personal webpage https://annalukiianchuk.com
+# Personal webpage https://annalukiianchuk.com
