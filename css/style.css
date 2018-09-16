@@ -3,11 +3,12 @@ background {
 }
 
 .logo-name{
-    font-size: 25px;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 1!important;
 }
 .logo-specialize {
     float: right;
-
 }
 
 .logo {
@@ -19,27 +20,19 @@ background {
 }
 
 .topnav {
-    overflow: hidden;
-}
-.container a {
-    color: black;
-}
-
-.container a:hover{
-    text-decoration: none;
-    color: black;
+    /*overflow: hidden;*/
 }
 
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav ul li a {
     color: gray;
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 16px!important;
     text-decoration: none;
-    font-size: 20px!important;
-    line-height: 25px!important;
+    font-size: 15px!important;
+    line-height: 1.5!important;
     font-family: medium-content-sans-serif-font,"Myriad Pro","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
 }
 
@@ -48,8 +41,9 @@ background {
     padding: 0!important;
 }
 
+
 .navbar{
-    align-content: center!important;
+    align: center!important;
 
 }
 
@@ -113,3 +107,25 @@ hr {
     text-align: center;
 }
 
+.imageBox {
+    position: relative;
+    float: left;
+}
+
+.imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.imageBox:hover .hoverImg {
+    display: block;
+}
+
+.after-menu{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 20%!important;
+    margin-right: 5%!important;
+}
