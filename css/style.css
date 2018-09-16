@@ -10,8 +10,12 @@ background {
 
 }
 
-.logo a{
-   text-decoration: none;
+.logo {
+    padding-bottom: 5px !important;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .topnav {
@@ -26,6 +30,7 @@ background {
     color: black;
 }
 
+
 /* Style the links inside the navigation bar */
 .topnav a {
     color: gray;
@@ -38,11 +43,22 @@ background {
     font-family: medium-content-sans-serif-font,"Myriad Pro","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
 }
 
+.bar{
+    background-color: white!important;
+    padding: 0!important;
+}
+
+.navbar{
+    align-content: center!important;
+
+}
+
 
 
 .line{
     padding-left: 5%;
     padding-right: 5%;
+    /*margin-top: 70px;*/
 }
 
 hr {
@@ -53,19 +69,12 @@ hr {
     background-color: #333;
 }
 
-br {
-    /*line-height: 2%;*/
- }
+
 
 .main-menu{
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-top: 10px;
 }
 
-.main-menu img{
-    width: 100%;
-    height: auto;
-}
 
 .left-photo {
     padding-top: 3%!important;
