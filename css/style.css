@@ -126,6 +126,10 @@ hr {
 .after-menu{
     padding-left: 10%;
     padding-right: 10%;
-    margin-left: 20%!important;
-    margin-right: 5%!important;
+    /*margin-left: 20%!important;*/
+    /*margin-right: 5%!important;*/
+}
+
+.after-image{
+    margin-bottom: 30px
 }
