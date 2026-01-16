@@ -1,1 +1,1 @@
-# Personal webpage https://annalukiianchuk.com
+# Personal webpage https://annalukiianchuk.com for graphic designer
